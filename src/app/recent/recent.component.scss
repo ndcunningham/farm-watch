@@ -1,0 +1,13 @@
+:host {
+  margin-top: 50px;
+  display: block;
+
+  .container {
+    margin: 0 auto;
+    h1 {
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+}

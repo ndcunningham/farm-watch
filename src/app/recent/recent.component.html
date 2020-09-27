@@ -1,0 +1,31 @@
+<div class="container">
+	<h1 class="mb-8">
+    Recent Suspicious Logins
+  </h1>
+
+	<table class="text-left w-full">
+		<thead class="bg-black flex text-white w-full">
+			<tr class="flex w-full mb-4">
+				<th class="p-4 w-1/4">Time</th>
+				<th class="p-4 w-1/4">Location</th>
+        <th class="p-4 w-1/4">Ip</th>		
+        <th class="p-4 w-1/4">Email Sent</th>		
+      	</tr>
+		</thead>
+    <!-- Remove the nasty inline CSS fixed height on production and replace it with a CSS class — this is just for demonstration purposes! -->
+		<tbody class="bg-grey-light flex flex-col items-center justify-between overflow-y-scroll w-full" style="height: 20vh; overflow-y: auto;">
+			<tr class="flex w-full mb-4">
+				<td class="p-4 w-1/4">12:40 PM-EST</td>
+				<td class="p-4 w-1/4">St Louis, MO</td>
+        <td class="p-4 w-1/4">111.71.148.200</td>
+        <td class="p-4 w-1/4">Yes</td>
+			</tr>
+			<tr class="flex w-full mb-4">
+				<td class="p-4 w-1/4">7:00 AM-EST</td>
+				<td class="p-4 w-1/4">St. Louis, MO</td>
+        <td class="p-4 w-1/4">178.64.219.166</td>
+        <td class="p-4 w-1/4">Yes</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
